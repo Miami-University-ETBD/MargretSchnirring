@@ -1,0 +1,3 @@
+git remote add origin https://github.com/Miami-University-ETBD/MargretSchnirring.git
+git branch -M main
+git push -u origin main
