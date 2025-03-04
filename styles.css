@@ -1,0 +1,83 @@
+/* Set light pink background for the whole page */
+body {
+    background-color: #f9c9d2; /* Light pink background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    color: #333; /* Dark gray text for the header */
+    font-size: 2.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff80b3; /* Soft pink background for header */
+    border-radius: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image Styling */
+img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square; /* Square bullets for unordered list */
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal; /* Numbered list */
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #333; /* Dark text color */
+}
+
+/* Table Styling */
+table {
+    width: 80%; /* Table takes up 80% of the page width */
+    margin: 20px auto;
+    border-collapse: collapse; /* Remove spacing between table cells */
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: left;
+}
+
+th {
+    background-color: #ff80b3; /* Soft pink for table header */
+    color: white; /* White text for header */
+    font-size: 1.1rem;
+}
+
+td {
+    background-color: #fff; /* White background for data cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for alternating rows */
+}
+
+tr:hover {
+    background-color: #ffb3d9; /* Light pink when hovering over rows */
+}
