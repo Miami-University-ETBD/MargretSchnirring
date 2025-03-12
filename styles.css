@@ -1,83 +1,108 @@
-/* Set light pink background for the whole page */
 body {
-    background-color: #f9c9d2; /* Light pink background */
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #f9c6d3; /* Light pink background */
 }
 
-/* Header Styling */
-h1 {
-    color: #333; /* Dark gray text for the header */
-    font-size: 2.5rem;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #ff80b3; /* Soft pink background for header */
-    border-radius: 10px;
+header {
+    background-color: #f08a8d; /* Medium pink header */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Paragraph Styling */
-p {
-    font-size: 1.2em;
-    margin-top: 20px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+header h1 {
+    font-weight: bold;
+    font-size: 2em;
 }
 
-/* Image Styling */
 img {
-    margin-top: 20px;
-    width: 200px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
-    border-radius: 50%;
-}
-
-/* List Styling */
-ul {
-    list-style-type: square; /* Square bullets for unordered list */
-    padding-left: 20px;
-}
-
-ol {
-    list-style-type: decimal; /* Numbered list */
-    padding-left: 20px;
-}
-
-li {
-    font-size: 1.1em;
-    margin: 10px 0;
-    color: #333; /* Dark text color */
-}
-
-/* Table Styling */
-table {
-    width: 80%; /* Table takes up 80% of the page width */
     margin: 20px auto;
-    border-collapse: collapse; /* Remove spacing between table cells */
+    display: block;
+}
+
+.bio-section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff2f2; /* Very light pink background for bio sections */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #d06a6b; /* Darker pink for section titles */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+    color: #d06a6b;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f08a8d; /* Matching footer with header */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.table-container {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff2f2; /* Light pink background for the table */
+}
+
+table, th, td {
+    border: 1px solid #d06a6b; /* Dark pink border */
 }
 
 th, td {
-    padding: 12px 15px;
-    border: 1px solid #ddd; /* Light gray border */
+    padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #ff80b3; /* Soft pink for table header */
-    color: white; /* White text for header */
-    font-size: 1.1rem;
+    background-color: #f08a8d; /* Medium pink for table header */
+    color: white;
 }
 
 td {
-    background-color: #fff; /* White background for data cells */
+    background-color: #ffe1e2; /* Soft pink background for table data */
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2; /* Light gray for alternating rows */
+aside {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #ffe1e2; /* Soft pink for aside */
+    font-style: italic;
 }
 
-tr:hover {
-    background-color: #ffb3d9; /* Light pink when hovering over rows */
+h3 {
+    color: #d06a6b; /* Dark pink for aside header */
 }
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
