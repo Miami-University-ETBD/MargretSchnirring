@@ -31,23 +31,31 @@
       
       <section>
     <h2>Image Slideshow</h2>
-    <div class="slideshow-container">
-        <img src="IMG_7557.jpeg" class="slide" alt="Image 1">
-        <img src="IMG_8770.jpeg" class="slide" alt="Image 2">
-        <img src="IMG_0767.jpeg" class="slide" alt="Image 3">
-    </div>
+    <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="IMG_7557.jpeg"></a>
+        <a class="carousel-item" href="#two!"><img src="IMG_8770.jpeg"></a>
+        <a class="carousel-item" href="#three!"><img src="IMG_0767.jpeg"></a>
+      </div>
+
     <button class="prev" onclick="changeSlide(-1)">Prev</button>
     <button class="next" onclick="changeSlide(1)">Next</button>
 </section>
     <section>
         <h2>Sports I Played in High School</h2>
-        <ul>
-            <li><strong>Basketball</strong> – I played point guard for all four years, captaining my team in my senior year. Never loved it until highschool, but ended up being my favorite. </li>
-            <li><strong>Track & Field</strong> – I specialized in sprints, breaking a few school records with my relay team. We were the only ones on our team to make it to states.</li>
-            <li><strong>Soccer</strong> – Played as a forward, captain for two years. We were never great in highschool, but this was the sport I had played since I was 3. Started my love for sports. Played on an all boys team</li>
-        </ul>
-    </section>
-
+    <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">soccerball</i>Soccer</div>
+          <div class="collapsible-body"><span>Played as a forward, captain for two years. We were never great in highschool, but this was the sport I had played since I was 3. Started my love for sports. Played on an all boys team.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">basketball</i>Basketball</div>
+          <div class="collapsible-body"><span>I played point guard for all four years, captaining my team in my senior year. Never loved it until highschool, but ended up being my favorite.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">shoe</i>Track & Field</div>
+          <div class="collapsible-body"><span>I specialized in sprints, breaking a few school records with my relay team. We were the only ones on our team to make it to states.</span></div>
+        </li>
+      </ul>
     <section>
         <h2>Why I Love Sports</h2>
         <p><em>Sports have always been my passion.</em> Both of my parents grew up being big sports fan and they both did a sport in college so they wanted me and my sisters to love sports just as much as they did. When we were younger I got to go to lots of Red’s games and watched the Bengals every sunday. After school I practiced with my sports teams and on the weekends I had games. Gym class was always my favorite subject (if you even consider it a subject). It helped that I wasn’t horrible at sports, so they were fun for me. I was always the closest of friends with my teammates, basically my whole life revolved around sports since I played so many. The spring of my 7th and 8th grade year I did three sports: Track, Softball and Club Soccer. This is when I knew I could never give up sports, because if I did that without hating any of the sports at the end, then I could work with sports forever.</p>
