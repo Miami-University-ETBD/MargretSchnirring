@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $("p").dblclick(function(){
+        $(this).hide();
+      });
+    });
+    </script>
+<script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+          $("input").focus(function(){
+            $(this).css("background-color", "yellow");
+          });
+          $("input").blur(function(){
+            $(this).css("background-color", "green");
+          });
+        });
+        </script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul style="list-style: none; padding: 0; display: flex; justify-content: center; background-color: #f08a8d; border-bottom: 2px solid #d06a6b;">
+            <li style="margin: 0 15px;"><a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a></li>
+            <li style="margin: 0 15px;"><a href="aboutme.html" style="color: white; text-decoration: none; font-weight: bold;">About Me</a></li>
+            <li style="margin: 0 15px;"><a href="content.html" style="color: white; text-decoration: none; font-weight: bold;">Sports Arena</a></li>
+            <li style="margin: 0 15px;"><a href="materialize.html" style="color: white; text-decoration: none; font-weight: bold;">Materialize</a></li>
+            <li style="margin: 0 15px;"><a href="jquery.html" style="color: white; text-decoration: none; font-weight: bold;">Jquery</a></li>
+        </ul>
+    </nav>
+<head>
+<body>
+    <section style="background-color: #ea2e60;">
+    <p>If you double-click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+</body>
+<body>
+    <section style="background-color: #f46d91;"></section>
+    <div id="flip">Click to slide down panel</div> <div id="panel">Hello world!</div>
+</body>
+<body>
+    <section style="background-color: #851e39;"></section>
+    Name: <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email">
+</body>
+</html>
